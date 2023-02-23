@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-family: arial;
+  font-size: 2rem;
+  text-align: center;
+}
+
+button {
+  color: black;
+  padding: 20px 40px;
+  font-family: arial;
+  font-size: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.12s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+div {
+  text-align: center;
+}
+
+h2 {
+  color: brown;
+}
+
+h2,
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
